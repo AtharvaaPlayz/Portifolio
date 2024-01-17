@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharvaa - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+
+    <header>
+        <div class="container" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)">
+            <h1>Atharvaa Velliyangiri</h1>
+            <p>Student, Youtuber, Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#" onclick="showSection('about-me')">About Me</a>
+            <a href="#" onclick="showSection('skills')">Skills</a>
+            <a href="#" onclick="showSection('projects')">Projects</a>
+            <a href="#" onclick="showSection('contact')">Contact</a>
+        </div>
+    </nav>
+
+    <section class="about-me project-card" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>            Hello! I'm Atharvaa, a passionate and creative web developer based in Erode, TamilNadu. With a strong foundation in front-end and back-end technologies, I love turning ideas into interactive and user-friendly websites. My journey in the world of development began when i was a 9 year old, my dad a software engineer so i sat beside him, when i saw him code i really got impressed.
+
+                I specialize in crafting clean and efficient code, and I enjoy solving complex problems to deliver robust solutions. My skills include HTML5, CSS3, JavaScript (ES6+), React.js, Node.js, and various databases like SQL and MongoDB.
+    
+                In addition to my technical skills, I have a keen eye for design and user experience. I believe in creating websites that not only function seamlessly but also provide an enjoyable and intuitive experience for users.
+    
+                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while working on a personal project. I am always eager to learn and stay updated with the latest industry trends.
+    
+                Let's connect and explore how we can collaborate to bring your ideas to life! Feel free to reach out through my email at atharvaa.vgiri@gmail.com or connect with me on Youtube at https://www.youtube.com/channel/UCvbm6h6OFRfjth7S1TXL-Fw. I look forward to hearing from you!</p>
+        </div>
+    </section>
+
+    <section class="skills project-card" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>SQL & MongoDB</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)" onclick="moon()">
+                <h3>MoonGravity</h3>
+                <p>A Fun interactive game with Zero-Gravity</p>
+            </div>
+            <div class="project-card" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)" onclick="pav()">
+                <h3>P.A.V Calculator</h3>
+                <p>A Python Script To Calculate Perimeter, Area and Volume</p>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: atharvaa.vgiri@gmail.com</p>
+            <p>Youtube: https://www.youtube.com/channel/UCvbm6h6OFRfjth7S1TXL-Fw</p>
+            <p>GitHub: github.com/atharvaaplayz</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Atharvaa-Portifolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
